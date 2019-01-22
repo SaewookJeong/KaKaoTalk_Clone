@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Position</title>
+    <style>
+        body,html{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            height: 400%;
+            background-color: aquamarine;
+        }
+
+
+
+
+        /* Position Fixed
+
+        #boxOne{
+            width: 300px;
+            height: 300px;
+            background-color: brown;
+            position: static;
+        }
+
+        #boxTwo{
+            width: 300px;
+            height: 300px;
+            background-color: green;
+            position: fixed;
+            right: 0px;
+        }
+        */
+
+        .abs-box{
+            width: 400px;
+            height: 400px;
+            background-color: yellow;
+            position: fixed;
+        }
+
+        .abs-child{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="abs-box">
+        <div class="abs-child"></div>
+    </div>
+    <!--
+    <div id="boxOne">
+        <div class="box-child"></div>
+    </div>
+
+    <div id="boxTwo">
+        <div class="box-child"></div>
+    </div>
+    -->
+</body>
+</html>
